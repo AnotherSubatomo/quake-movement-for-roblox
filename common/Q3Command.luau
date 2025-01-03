@@ -6,7 +6,7 @@
 --!native
 --!strict
 
-local ContextAction = game:GetService('ContextActionService')
+local ContextAction = game:GetService 'ContextActionService'
 local KeyCode = Enum.KeyCode
 local UserInputState = Enum.UserInputState
 
