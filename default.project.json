@@ -1,0 +1,30 @@
+{
+  "name": "quake-movement-for-roblox",
+  "tree": {
+    "$className": "DataModel",
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "ControlScript": {
+          "$path": "ControlScript.client.luau",
+
+          "QWMovementEngine": {
+            "$path": "QW",
+            "MouseLook": { "$path": "common/MouseLook.luau" },
+            "MovementSettings": { "$path": "common/MovementSettings.luau" },
+            "Q3Command": { "$path": "common/Q3Command.luau" },
+            "Q3DebugMenu": { "$path": "common/Q3DebugMenu.luau" }
+          },
+
+          "Q3MovementEngine": {
+            "$path": "Q3",
+            "MouseLook": { "$path": "common/MouseLook.luau" },
+            "MovementSettings": { "$path": "common/MovementSettings.luau" },
+            "Q3Command": { "$path": "common/Q3Command.luau" },
+            "Q3DebugMenu": { "$path": "common/Q3DebugMenu.luau" }
+          }
+        }
+      }
+    }
+  }
+}
